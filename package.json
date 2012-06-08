@@ -1,0 +1,16 @@
+{ "name": "zombieBrowserExtractor",
+  "version": "0.1",
+  "description": "Base extractor built on Zombie.js",
+  "homepage": "http://www.archive.org/",
+  "author": "Adam Miller <adam@archive.org>",
+  "main": "lib/zombieBrowserExtractor",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "jsdom":            "~0.2.10",
+    "zombie":			"~0.12.14",
+    "html5":            "~0.3.8",
+    "htmlparser"
+  }
+}
